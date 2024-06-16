@@ -1,6 +1,6 @@
 <circuit version="1.0.0-SR2" rev="1449" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
-<item itemtype="KeyPad" CircId="KeyPad-1" mainComp="false" Show_id="false" Show_Val="false" Pos="572,572" rotation="0" hflip="1" vflip="1" label="KeyPad-1" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4 _Teclas" Cols="4 _Teclas" Key_Labels="123A456B789C*0#D" />
+<item itemtype="KeyPad" CircId="KeyPad-1" mainComp="false" Show_id="false" Show_Val="false" Pos="576,568" rotation="0" hflip="1" vflip="1" label="KeyPad-1" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4 _Teclas" Cols="4 _Teclas" Key_Labels="123A456B789C*0#D" />
 
 <item itemtype="Subcircuit" CircId="Mega-2" mainComp="false" Show_id="true" Show_Val="false" Pos="692,468" rotation="0" hflip="1" vflip="1" label="Mega-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
 <mainCompProps itemtype="MCU" CircId="2_mega2560-63" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="2_mega2560-63" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="TrabajoFinal.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
@@ -14,23 +14,23 @@
 
 <item itemtype="Connector" uid="connector-6" startpinid="Aip31068_i2c-4PinSDA" endpinid="Mega-2-20" pointList="668,452,668,524,700,524" />
 
-<item itemtype="Connector" uid="connector-7" startpinid="KeyPad-1-Pin0" endpinid="Mega-2-9" pointList="636,580,688,580,688,668,700,668" />
+<item itemtype="Connector" uid="connector-7" startpinid="KeyPad-1-Pin0" endpinid="Mega-2-9" pointList="640,576,688,576,688,668,700,668" />
 
-<item itemtype="Connector" uid="connector-8" startpinid="KeyPad-1-Pin1" endpinid="Mega-2-8" pointList="636,596,684,596,684,660,700,660" />
+<item itemtype="Connector" uid="connector-8" startpinid="KeyPad-1-Pin1" endpinid="Mega-2-8" pointList="640,592,684,592,684,660,700,660" />
 
-<item itemtype="Connector" uid="connector-9" startpinid="KeyPad-1-Pin2" endpinid="Mega-2-7" pointList="636,612,680,612,680,644,700,644" />
+<item itemtype="Connector" uid="connector-9" startpinid="KeyPad-1-Pin2" endpinid="Mega-2-7" pointList="640,608,680,608,680,644,700,644" />
 
-<item itemtype="Connector" uid="connector-10" startpinid="KeyPad-1-Pin3" endpinid="Mega-2-6" pointList="636,628,700,628,700,636" />
+<item itemtype="Connector" uid="connector-10" startpinid="KeyPad-1-Pin3" endpinid="Mega-2-6" pointList="640,624,700,624,700,636" />
 
-<item itemtype="Connector" uid="connector-11" startpinid="KeyPad-1-Pin4" endpinid="Mega-2-5" pointList="572,644,572,672,676,672,676,628,700,628" />
+<item itemtype="Connector" uid="connector-11" startpinid="KeyPad-1-Pin4" endpinid="Mega-2-5" pointList="576,640,576,672,676,672,676,628,700,628" />
 
-<item itemtype="Connector" uid="connector-12" startpinid="KeyPad-1-Pin5" endpinid="Mega-2-4" pointList="588,644,588,668,672,668,672,620,700,620" />
+<item itemtype="Connector" uid="connector-12" startpinid="KeyPad-1-Pin5" endpinid="Mega-2-4" pointList="592,640,592,668,672,668,672,620,700,620" />
 
-<item itemtype="Connector" uid="connector-13" startpinid="KeyPad-1-Pin7" endpinid="Mega-2-2" pointList="620,644,620,660,664,660,664,604,700,604" />
+<item itemtype="Connector" uid="connector-13" startpinid="KeyPad-1-Pin7" endpinid="Mega-2-2" pointList="624,640,624,660,664,660,664,604,700,604" />
 
 <item itemtype="Connector" uid="connector-14" startpinid="AudioOut-3-lPin" endpinid="Mega-2-10" pointList="648,716,680,716,680,676,700,676" />
 
-<item itemtype="Connector" uid="connector-15" startpinid="KeyPad-1-Pin6" endpinid="Mega-2-3" pointList="604,644,604,664,668,664,668,612,700,612" />
+<item itemtype="Connector" uid="connector-15" startpinid="KeyPad-1-Pin6" endpinid="Mega-2-3" pointList="608,640,608,664,668,664,668,612,700,612" />
 
 <item itemtype="Connector" uid="connector-16" startpinid="AudioOut-3-rPin" endpinid="Mega-2-GND0" pointList="648,708,700,708" />
 
